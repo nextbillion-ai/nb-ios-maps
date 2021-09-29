@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   iOS Maps SDK, Directions, DistanceMatrix and Matching APIs that provided by Nextbillion AI, 
                    DESC
 
-   spec.homepage     = "https://github.com/nextbillion-ai/ios-maps-pod"
+   spec.homepage     = "https://github.com/nextbillion-ai/nb-ios-maps"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/nextbillion-ai/ios-maps-pod.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/nextbillion-ai/nb-ios-maps.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
