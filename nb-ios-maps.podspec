@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "nb-ios-maps"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of nb-ios-maps."
+  spec.summary      = "iOS Maps SDK by Nextbillion AI."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  iOS Maps SDK by Nextbillion AI
+  iOS Maps SDK, Directions, DistanceMatrix and Matching APIs that provided by Nextbillion AI, 
                    DESC
 
    spec.homepage     = "https://github.com/nextbillion-ai/ios-maps-pod"
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = ":git => 'https://github.com/nextbillion-ai/nb-ios-maps/blob/main/LICENSE'"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
