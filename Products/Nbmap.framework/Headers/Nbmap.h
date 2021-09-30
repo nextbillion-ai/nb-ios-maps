@@ -88,4 +88,3 @@ FOUNDATION_EXPORT NGL_EXPORT const unsigned char NbmapVersionString[];
 #import "SnapToRoadResponse.h"
 #import "NBRouteResponse.h"
 #import "NBAPIClient.h"
-

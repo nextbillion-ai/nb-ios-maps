@@ -14,17 +14,6 @@ NGL_EXPORT
 #pragma mark Authorizing Access
 
 /**
- The
- <a href="https://docs.nbmap.com/help/glossary/access-token/">Nbmap access token</a>
- used by all instances of `NGLMapView` in the current application.
-
- Nbmap-hosted vector tiles and styles require an API access token, which you
- can obtain from the
- <a href="https://www.nbmap.com/studio/account/tokens/">Nbmap account page</a>.
- Access tokens associate requests to Nbmap’s vector tile and style APIs with
- your Nbmap account. They also deter other developers from using your styles
- without your permission.
-
  Setting this property to a value of `nil` has no effect.
 
  @note You must set the access token before attempting to load any Nbmap-hosted
