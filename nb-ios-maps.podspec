@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.name         = "Nbmap"
+  spec.name         = "nb-ios-maps"
   spec.version      = "0.0.6"
   spec.summary      = "iOS Maps SDK by Nextbillion AI."
 
