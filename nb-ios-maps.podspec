@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "nb-ios-maps"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "iOS Maps SDK by Nextbillion AI."
 
   spec.description  = <<-DESC
@@ -28,9 +28,7 @@ Pod::Spec.new do |spec|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  # spec.source       = { :git => "https://github.com/nextbillion-ai/nb-ios-maps.git", :tag => "#{spec.version}" }
-  # https://github.com/nextbillion-ai/nb-ios-maps/blob/main/Nbmaps.zip
-  spec.source            = { :http => 'https://github.com/nextbillion-ai/nb-ios-maps/raw/main/nb-ios-maps.zip', :flatten => true  }
+  spec.source            = { :http => 'https://github.com/nextbillion-ai/nb-ios-maps/raw/main/nbmaps-v0.0.7.zip'}
 
 
 
@@ -38,6 +36,6 @@ Pod::Spec.new do |spec|
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   # ――― Dynamic Framework ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.ios.vendored_frameworks = "nb-ios-maps/Nbmap.framework"
+  spec.ios.vendored_frameworks = "Nbmap.framework"
 
 end
